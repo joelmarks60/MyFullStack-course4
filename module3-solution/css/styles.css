@@ -1,0 +1,90 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #acc4e5;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #b10f16;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Alegreya', serif;
+  color: #ffffff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+ }
+
+ #nav-list a:hover {
+  background: #aaaaaa;
+}
+
+#nav-list a:focus {
+  background: #e2c7c7; 
+}
+
+ .icon-bar {
+  border: 1px solid #000000;
+  }
+
+  h2 {
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  color: black;
+  }
+  #category-description-container {
+	  background-color: #f9f9f9;
+	  color: black;
+	  font-size: 2em;
+	  margin-top: 20px; 
+	  margin-bottom: 30px;
+	  height: 1000px;
+  }
+
+  #category-description-title {
+	  color: black;
+	  font-size: 1em;
+  }
+
+   #category-description-text {
+	  font-size: initial;
+  }
+
+  .myfooter {
+  color: black;
+  font-size: 80%;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-left: 0px;
+  /*border: solid black; */
+}
+
+
+
+ /********** Small and extra-small devices only **********/
+@media (max-width: 767px) {
+  /* Home Page */
+  #collapsable-nav {
+   background-color: #f4f4f4;
+   color: black;
+ }
+ #collapsable-nav a {
+	 color: black;
+ }
+ }
+  /* End Home Page */
