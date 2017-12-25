@@ -67,11 +67,6 @@ body {
 	  font-size: initial;
   }
 
-  .col-xs-12 {
-	  margin-right: 30px;
-	  margin-left: 30px;
-  }
-
   .myfooter {
   color: black;
   font-size: 80%;
@@ -96,7 +91,7 @@ body {
  }
 
  #category-description-container {
-	  margin-left: 20px;
-	  margin-right: 20px;
+	  /*margin-left: 20px;
+	  margin-right: 20px; */
  }
   /* End Home Page */
