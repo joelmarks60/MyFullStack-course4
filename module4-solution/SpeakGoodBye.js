@@ -3,7 +3,6 @@
 //
 
 (function(window) {
-  console.log("Inside SpeakGoodbye.js")
   // STEP 6: Wrap the entire contents of SpeakGoodBye.js inside of an IIFE
 // See Lecture 52, part 2
 
@@ -30,6 +29,4 @@ var speakWord = "Good Bye";
 //==============================================================
 //
 })(window);
-
-console.log (byeSpeaker);
 

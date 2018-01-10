@@ -13,7 +13,6 @@
 
 
 (function(window) {
-	console.log("Inside SpeakHello.js")
   // STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
 // See Lecture 52, part 2
 
@@ -41,4 +40,3 @@ helloSpeaker.speak = function (name) {
 }
 )(window);
 
-console.log (helloSpeaker)
